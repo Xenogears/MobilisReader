@@ -1,0 +1,186 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    		android:layout_width="match_parent"
+    		android:layout_height="match_parent">
+    		
+	<TableLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" 
+	    android:background="#FFFFFF">
+	
+	    <TableRow
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="15dp"
+	        android:background="@color/DefaultBackgroundColor"
+	        android:gravity="center"
+	        android:paddingBottom="10dp"
+	        android:paddingTop="10dp" >
+	
+	        <RelativeLayout
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:paddingLeft="10dp"
+	            android:paddingRight="10dp">
+	
+	           <ImageView
+	               android:id="@+id/iv_service"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:src="@drawable/logo_metro" />
+	
+	           <TextView
+	               android:id="@+id/tv_service_name"
+	               android:layout_width="wrap_content"
+	               android:layout_height="wrap_content"
+	               android:layout_alignParentRight="true"
+	               android:layout_centerVertical="true"
+	               android:layout_marginRight="10dp"
+	               android:text="Metro Valencia"
+	               android:textAppearance="?android:attr/textAppearanceLarge"
+	               android:textStyle="bold" />
+	           
+	        </RelativeLayout>		
+	    </TableRow>
+	    
+	    
+	    
+	    <TableRow
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="15dp"
+	        android:background="@color/DefaultBackgroundColor"
+	        android:gravity="center"
+	        android:paddingBottom="10dp"
+	        android:paddingTop="10dp" >
+	
+	        <RelativeLayout
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:paddingLeft="10dp"
+	            android:paddingRight="10dp">
+	
+	            <TextView
+	                android:id="@+id/tv_card"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="@string/lbl_card"
+	                android:textAppearance="?android:attr/textAppearanceLarge"
+	                android:textStyle="bold" />
+	
+	            <TextView
+	                android:id="@+id/tv_cardid"
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:gravity="right"
+	                android:textIsSelectable="true"
+	                android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	        </RelativeLayout>
+			
+	    </TableRow>
+	    
+	    <TableRow
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="15dp"
+	        android:background="@color/DefaultBackgroundColor"
+	        android:gravity="center"
+	        android:paddingBottom="10dp"
+	        android:paddingTop="10dp" >
+	
+	        <RelativeLayout
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:paddingLeft="10dp"
+	            android:paddingRight="10dp">
+	
+	            <TextView
+	                android:id="@+id/tv_ticket"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="@string/lbl_ticket"
+	                android:textAppearance="?android:attr/textAppearanceLarge"
+	                android:textStyle="bold" />
+	
+	            <TextView
+	                android:id="@+id/tv_ticket_name"
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:gravity="right"
+	                android:textIsSelectable="true"
+	                android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	        </RelativeLayout>
+			
+	    </TableRow>
+	    
+	    <TableRow
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="15dp"
+	        android:background="@color/DefaultBackgroundColor"
+	        android:gravity="center"
+	        android:paddingBottom="10dp"
+	        android:paddingTop="10dp" >
+	
+	        <RelativeLayout
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:paddingLeft="10dp"
+	            android:paddingRight="10dp">
+	
+	            <TextView
+	                android:id="@+id/tv_tickets_available"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="@string/lbl_ticketsAvailable"
+	                android:textAppearance="?android:attr/textAppearanceLarge"
+	                android:textStyle="bold"  />
+	
+	            <TextView
+	                android:id="@+id/tv_tickets_available_name"
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:gravity="right"
+	                android:textIsSelectable="true"
+	                android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	        </RelativeLayout>
+	    </TableRow>
+	    
+	    
+	    <TableRow
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="15dp"
+	        android:background="@color/DefaultBackgroundColor"
+	        android:gravity="center"
+	        android:paddingBottom="10dp"
+	        android:paddingTop="10dp" >
+	
+	        <RelativeLayout
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:paddingLeft="10dp"
+	            android:paddingRight="10dp">
+	
+	            <TextView
+	                android:id="@+id/tv_messages"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="@string/lbl_messages"
+	                android:textAppearance="?android:attr/textAppearanceLarge"
+	                android:textStyle="bold"  />
+	
+	            <TextView
+	                android:id="@+id/tv_messages_name"
+	                android:layout_width="fill_parent"
+	                android:layout_height="wrap_content"
+	                android:layout_below="@+id/tv_messages"
+	                android:gravity="center"
+	                android:textAppearance="?android:attr/textAppearanceMedium" />
+	
+	        </RelativeLayout>
+	    </TableRow>
+	</TableLayout>
+</ScrollView>

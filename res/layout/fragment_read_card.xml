@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/DefaultBackgroundColor"
+    android:gravity="center" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/lblApproachMobilis"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:background="@color/DetailBackgroundColor" >
+        
+         <ImageView
+             android:id="@+id/imgScanMobilis"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_below="@+id/imgv_logo_metro"
+             android:layout_centerHorizontal="true"
+             android:layout_marginBottom="30dp"
+             android:layout_marginTop="15dp"
+             android:contentDescription="Lector de tarjetas"
+             android:src="@drawable/img_lector" />
+
+         <ImageView
+             android:id="@+id/imgv_logo_metro"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:contentDescription="Tarjetas mobilis"
+             android:src="@drawable/img_tarjetas_logo" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/lblApproachMobilis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp"
+        android:shadowColor="@color/DetailBackgroundColor"
+        android:shadowDx="1.0"
+        android:shadowDy="1.0"
+        android:shadowRadius="3.0"
+        android:text="Acerca la tarjeta Mobilis a tu lector NFC para leerla"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="normal|italic"
+        android:typeface="normal" />
+
+</RelativeLayout>

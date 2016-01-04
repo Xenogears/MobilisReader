@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mobilis Reader</string>
+    <string name="title_section1">Leer Tarjeta</string>
+    <string name="title_section2">Introducir código</string>
+    <string name="title_section3">Sobre APP</string>
+    <string name="lbl_readingCard">Leyendo la tarjeta&#8230;</string>    
+    <string name="lbl_typeCardCode">Introduce el código de la tarjeta</string>    
+    <string name="lbl_emtvalencia">EMT Valencia</string>
+    <string name="lbl_metrovalencia">Metro Valencia</string>    
+    <string name="lbl_errorCheckingCard">Error al comprobar la tarjeta</string>
+    <string name="lbl_errorReadingCard">Error al leer la tarjeta</string>
+    <string name="lbl_errorProcessingCard">Hubo un error al leer la tarjeta. Inténtelo de nuevo.</string>    
+    <string name="lbl_errorNotAMobilisCard">No es una tarjeta Mobilis</string> 
+    <string name="lbl_fetchingFromServer">Consultando los servidores de %s&#8230;</string>    
+    <string name="lbl_nfcReader">Lector NFC</string>
+    <string name="lbl_requiresNfcEnabled">Para usar el lector de tarjetas, es necesario tener NFC habilitado</string>    
+    <string name="lbl_typedCodeIsWrong">El código introducido es incorrecto</string>    
+    <string name="lbl_ok">Aceptar</string>
+    <string name="lbl_enable">Activar</string>
+    <string name="lbl_continue">Continuar</string>
+    <string name="lbl_loading">Cargando&#8230;</string>    
+    <string name="lbl_back">Atrás</string>
+    <string name="lbl_notAvailable">No disponible</string>
+    <string name="lbl_noMessages">No hay mensajes</string>
+    <string name="lbl_check">Comprobar</string>
+    <string name="lbl_card">Tarjeta</string>
+    <string name="lbl_ticket">Billete</string>
+    <string name="lbl_ticketsAvailable">Viajes disponibles</string>
+    <string name="lbl_messages">Mensajes</string>
+    <string name="lbl_aboutMobilis">Mobilis Reader es un proyecto final del ciclo de Desarrollo de aplicaciones multiplataforma en el IES Abastos de Valencia.</string>
+    <string name="lbl_student">Alumno:</string>
+    <string name="lbl_grade">Curso:</string>    
+</resources>

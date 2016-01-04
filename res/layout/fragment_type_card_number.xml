@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/DefaultBackgroundColor"
+    android:gravity="center" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/lblApproachMobilis"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:background="@color/DetailBackgroundColor" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/img_codigo_tarjeta" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/lblApproachMobilis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:shadowColor="@color/DetailBackgroundColor"
+        android:shadowDx="1.0"
+        android:shadowDy="1.0"
+        android:shadowRadius="3.0"
+        android:text="@string/lbl_typeCardCode"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="normal|italic"
+        android:typeface="normal" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lblApproachMobilis"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" 
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <EditText
+            android:id="@+id/tb_card_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/bt_searchCardCode"
+            android:ems="10"            
+            android:maxLength="12"
+            android:inputType="number">
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/bt_searchCardCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tb_card_code"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:text="Consultar"
+            android:textSize="12sp" >
+
+        </Button>
+
+    </RelativeLayout>
+
+</RelativeLayout>
